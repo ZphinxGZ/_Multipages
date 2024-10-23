@@ -47,7 +47,7 @@ function App() {
      <HashRouter>
       <Routes>
         <Route element={<Layout products={products} carts={carts} tab={tab} setTab={setTab} setToken={setToken}/>}>
-          <Route path={"/"} element={<Home />} />
+          <Route path={""} element={<Home />} />
           <Route path={"/home"} element={<Home />} />
           <Route path={"/calculator"} element={<Calculator />} />
           <Route path={"/component"} element={<Component />} />
